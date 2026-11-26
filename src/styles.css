@@ -77,6 +77,11 @@ a {
   border-radius: 8px;
 }
 
+/* Sections focused by in-page navigation: move focus without drawing an outline. */
+.nav-focus-target:focus {
+  outline: none;
+}
+
 .container {
   width: 100%;
   max-width: calc(var(--container) + var(--gutter) * 2);

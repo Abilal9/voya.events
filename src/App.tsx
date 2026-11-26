@@ -8,8 +8,11 @@ import { Nav } from './components/Nav';
 import { Showcase } from './components/Showcase';
 import { WhyVoya } from './components/WhyVoya';
 import { experiences } from './content';
+import { useSectionNavigation } from './useSectionNavigation';
 
 export default function App() {
+  useSectionNavigation();
+
   return (
     <>
       <a className="skip-link" href="#main">
